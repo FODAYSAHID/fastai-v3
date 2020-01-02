@@ -10,3 +10,4 @@ uvicorn==0.7.1
 python-multipart==0.0.5
 pretrainedmodels==0.7.4
 Pillow==6.2.1
+fastprogress==0.2.1
