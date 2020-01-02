@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1C_0WiXRfOHcxeg3uXRYh17vNcv6eGQhx'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1C_0WiXRfOHcxeg3uXRYh17vNcv6eGQhx?alt=media&key=AIzaSyBfTuUWZVBa1O5ZF7Q0vpkhaGYY67T4weY'
 export_file_name = 'FodayCassavaUpdated.pth'
 
 classes = ['cbsd', 'cgm', 'cmd', 'cbb', 'healthy']
